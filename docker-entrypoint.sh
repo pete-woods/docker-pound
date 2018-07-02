@@ -14,6 +14,7 @@ ListenHTTP
     Address ${SERVER_ADDRESS}
     Port    ${SERVER_PORT}
     RewriteLocation ${REWRITE_LOCATION}
+    xHTTP   ${SERVER_XHTTP}
 
     # Login server
     Service
